@@ -1,0 +1,59 @@
+
+# ==============================
+# ENVIRONMENT - PRIVATE
+# ==============================
+.env
+.env.*
+!.env.example
+
+# ==============================
+# MOCK DATA - PRIVATE
+# ==============================
+**/mockData.ts
+**/mockdata.ts
+
+# ==============================
+# NODE / REACT / VITE
+# ==============================
+node_modules/
+**/node_modules/
+dist/
+.vite/
+*.log
+npm-debug.log*
+
+# ==============================
+# ANDROID / GRADLE
+# ==============================
+*.iml
+.gradle/
+**/.gradle/
+local.properties
+**/local.properties
+build/
+**/build/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# ==============================
+# IDE
+# ==============================
+.idea/
+.vscode/
+
+# ==============================
+# OS
+# ==============================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==============================
+# TEMPORARY
+# ==============================
+*.tmp
+*.bak
+*.swp
+# Private backend
+server.ts
